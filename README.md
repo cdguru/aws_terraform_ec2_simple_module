@@ -18,7 +18,7 @@ module "ec2" {
 
   subnet_id           = <string>
 
-  security_groups_id  = <list of strings>
+  security_groups_ids = <list of strings>
 
   instance_type       = <string>
 
